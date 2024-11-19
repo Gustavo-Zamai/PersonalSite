@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D4F6FF;
+}
+
+.container-navbar {
+    height: 15vh;
+    background-color: #5c7b90;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-navbar > button {
+    font-family: 'Roboto', sans-serif;
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 3rem;
+    font-size: 1rem;
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.container-navbar > button:hover {
+    background-color: #DBE2EF;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    padding: 3rem;
+}
+
+.profile-img {
+    height: 300px;
+    border-radius: 50%;
+}
+
+.intro-container > h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro-container > p {
+    font-family: 'Poppins', sans-ser;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+    .container-navbar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 35vh;
+        gap: 15px;
+    }
+
+    .profile-img{
+        height: 200px;
+    }
+
+    .intro-container > h1 {
+        font-size: 2rem;
+    }
+
+    .intro-container > p {
+        font-size: 1.2rem;
+        align-self: center;
+    }
+}
