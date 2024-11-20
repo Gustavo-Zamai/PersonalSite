@@ -190,8 +190,8 @@ body {
 
 
 
-/*Extra Large Breakpoint*/
-@media (max-width: 1200px) {
+/*Extra Extra Large Breakpoint*/
+@media (max-width: 1400px) {
     #resume>h2 {
         justify-content: center;
         align-items: center;
@@ -220,7 +220,7 @@ body {
     }
 }
 
-/*Large Breakpoint*/
+/*Large Breakpoint
 @media (max-width: 992px) {
     #resume>h2 {
         justify-content: center;
@@ -248,10 +248,10 @@ body {
         padding: 1rem;
         margin: 0 10rem;
     }
-}
+}*/
 
 /*Small Breakpoint*/
-@media (max-width: 576px) {
+@media (max-width: 700px) {
     .container-navbar {
         flex-direction: column;
         align-items: center;
