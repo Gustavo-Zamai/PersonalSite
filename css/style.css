@@ -190,23 +190,35 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Extra Large Breakpoint*/
+@media (max-width: 1200px) {
+    #resume>h2 {
+        justify-content: center;
+        align-items: center;
+        color: #333333;
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;
+        border-top: 1px solid #000000;
+        padding: 0.5rem;    
+    }
+    
+    .resume-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1rem;
+        margin: 0 10rem;
+    }
+}
 
 /*Large Breakpoint*/
 @media (max-width: 992px) {
